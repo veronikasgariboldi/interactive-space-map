@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f3f3;
+}
+
+#map {
+  height: 85vh;
+  width: 80%;
+    margin: 0 auto;
+}
+
+.marker {
+    width: 100px;           
+    height: auto;          
+    cursor: pointer;       
+    filter: drop-shadow(0px 0px 4px rgba(37, 33, 33, 0.5)); 
+}
+
+.header {
+  color: #002664;
+  text-align: center;
+  height: 20%;
+  padding: 1rem;
+  padding-top: 0;
+  font-family: "Michroma", sans-serif;
+}
+
+.header h1 {
+    margin-bottom: 0.5rem;
+}
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header p {
+    font-size: x-small;
+    margin-top: 1%;
+    text-align: right;
+    font-style: italic;
+    padding-right: 10%;
+}
